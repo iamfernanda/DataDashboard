@@ -1,5 +1,16 @@
 # Data Dashboard
 
+## Skech
+https://www.figma.com/file/LeHuyBxO49aVUIeHNhB1jGfy/Untitled
+Check out this interactive prototype https://marvelapp.com/175f15bg
+
+
+
+
+
+
+
+
 ## Preámbulo
 
 En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la
