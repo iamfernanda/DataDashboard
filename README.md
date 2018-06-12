@@ -1,6 +1,21 @@
 Estimado (a) TMs:
 
+<<<<<<< HEAD
 A continuación presentaremos nuestra propuesta del encargo de la interfaz de Data Dashboard para Laboratoria la cual estará dividida en tres etapas, principalmente UX, CODE, TEST. 
+=======
+## Skech
+https://www.figma.com/file/LeHuyBxO49aVUIeHNhB1jGfy/Untitled
+Check out this interactive prototype https://marvelapp.com/175f15bg
+
+
+
+
+
+
+
+
+## Preámbulo
+>>>>>>> 92bd82947d482302395f433824db3254ad756a36
 
 **----------------------------------------UX-----------------------------------------------**
 
