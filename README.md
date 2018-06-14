@@ -20,6 +20,8 @@ Para idear un propuesta visual que contemple todas las caracteristicas principal
 
 Sketchs
 
+![foto1](https://user-images.githubusercontent.com/39094762/41393337-3e291188-6f73-11e8-8337-94c05b006474.jpg)
+![foto2](https://user-images.githubusercontent.com/39094762/41393377-7c5cff1e-6f73-11e8-8167-a79250fbf96b.jpg)
 
 * Primer Prototipo digital/ hecho con figma*(https://www.figma.com/file/LeHuyBxO49aVUIeHNhB1jGfy/Untitled)
 
