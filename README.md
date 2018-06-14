@@ -1,27 +1,32 @@
-# DATA DASHBOARD
+# PROYECTO 2 DATA DASHBOARD
 
-A continuación presentaremos nuestra propuesta de la interfaz de Data Dashboard para los TMs de Laboratoria. 
-Las participantes Fernanda Vilches y Fernanda Isla, estudiantes de Laboratoria Cohorts de chile 2018-1.
+A continuación presentaremos nuestra propuesta interfaz del Data Dashboard para los TMs de Laboratoria. 
+Las participantes Fernanda Vilches y Fernanda Isla, estudiantes de Laboratoria Cohorts SCL 20181.
 
 ## RESUMEN
 
 "En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje."
 
-El objetivo general de este proyecto es realizar un interfaz que permita una:  
+El objetivo general de este proyecto es realizar un interfaz que permita:  
 
-* MAYOR Y MEJOR VIZUALIZACIÓN del proceso del LMS para tener un mejor entendimiento de cómo va cada estudiante en su proceso de aprendizaje."
+* Mejor y mayor vizualización del proceso del LMs, (cómo va cada estudiante en su proceso de aprendizaje).
 
-* ACCESO FACIL A LOS COHORTS.
+* Acceso simple a los cohorts.
 
-* INFORMACIÓN GRAFICA, UTIL Y CONCISO.
+* Información grafica, visual util y conciso.
+
+* Busqueda de almunas e información de su completitud.
 
 
-Para idear un propuesta visual que contemple todas las caracteristicas principales que el cliente necesita que tenga la interfaz partimos dibujando ideas y jerarquizando los elementos y contenido.
+Comenzamos con una propuesta visual que contemple todas las caracteristicas principales que el cliente necesita que contenga esta interfaz. 
+Se jerarquizaron las funciones y contenido más importantes, para luego plasmarlo en ideas y sketch, como se muestra a las imagenes. 
 
-Sketchs
 
 ![foto1](https://user-images.githubusercontent.com/39094762/41393337-3e291188-6f73-11e8-8337-94c05b006474.jpg)
 ![foto2](https://user-images.githubusercontent.com/39094762/41393377-7c5cff1e-6f73-11e8-8167-a79250fbf96b.jpg)
+
+
+Luego de definir las principales caracteristicas, se realizo un prototipo digital de baja fidelidad en figma y el segundo prototipo de alta fidelidad en Marvel, favor haz click sobre los link.
 
 * Primer Prototipo digital/ hecho con figma*(https://www.figma.com/file/LeHuyBxO49aVUIeHNhB1jGfy/Untitled)
 
