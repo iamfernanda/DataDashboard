@@ -1,31 +1,29 @@
-Estimado (a) TMs:
+# DATA DASHBOARD
 
-A continuación presentaremos nuestra propuesta del encargo de la interfaz de Data Dashboard para Laboratoria la cual estará dividida en tres etapas, principalmente UX, CODE, TEST.
+A continuación presentaremos nuestra propuesta de la interfaz de Data Dashboard para los TMs de Laboratoria. 
+Las participantes Fernanda Vilches y Fernanda Isla, estudiantes de Laboratoria Cohorts de chile 2018-1.
 
-Skech
-
-
-
-
-UX
+## RESUMEN
 
 "En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje."
 
-Iniciaremos detectando la principal necesidad:   
+El objetivo general de este proyecto es realizar un interfaz que permita una:  
 
 * MAYOR Y MEJOR VIZUALIZACIÓN del proceso del LMS para tener un mejor entendimiento de cómo va cada estudiante en su proceso de aprendizaje."
 
 * ACCESO FACIL A LOS COHORTS.
+
 * INFORMACIÓN GRAFICA, UTIL Y CONCISO.
 
 
+Para idear un propuesta visual que contemple todas las caracteristicas principales que el cliente necesita que tenga la interfaz partimos dibujando ideas y jerarquizando los elementos y contenido.
 
-![Skechs1](img/skech1.jpg)
+Sketchs
 
 
-*Primer Prototipo digital/ hecho con figma*(https://www.figma.com/file/LeHuyBxO49aVUIeHNhB1jGfy/Untitled)
+* Primer Prototipo digital/ hecho con figma*(https://www.figma.com/file/LeHuyBxO49aVUIeHNhB1jGfy/Untitled)
 
-*Segundo Prototipo digital/ hecho con Marvel* 
+* Segundo Prototipo digital/ hecho con Marvel 
 [Prototipo_Desktop] (https://marvelapp.com/9235hjh)
 [Prototipo_Móvil] (https://marvelapp.com/6gc097g)
 
