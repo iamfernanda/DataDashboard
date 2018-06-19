@@ -1,11 +1,14 @@
-# PROYECTO 2 DATA DASHBOARD
+# DATA DASHBOARD
+*Segundo proyecto de formación en Laboratoria*
+
+
 
 A continuación presentaremos nuestra propuesta interfaz del Data Dashboard para los TMs de Laboratoria. 
 Las participantes Fernanda Vilches y Fernanda Isla, estudiantes de Laboratoria Cohorts SCL 20181.
 
 ## RESUMEN
 
-"En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje."
+**"En Laboratoria, las Training Managers (TMs) hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje."**
 
 El objetivo general de este proyecto es realizar un interfaz que permita:  
 
