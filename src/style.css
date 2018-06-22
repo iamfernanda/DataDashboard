@@ -1,30 +1,137 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: teal;
+    padding: 0px;
+    margin: 0px;
 }
-.container-fluir img {
+/*  CCS DESKTOP */
+
+/*logotipo Laboratoria*/
+.container-fluid img { 
     width: 25%;
     padding: 1em;
 }
 
+/*boton buscar*/
+.container-fluid a {
+    width: 150px;
+    height:40px ;
+    background-color: #ff009E;
+    border: 1px solid rgb(192, 47, 136);
+    position:absolute;
+    right: 25px;
+    top:15px;   
+}
+ /*texto boton buscar*/
+.container-fluid h2 {
+    font-size: 20px;
+}
+
+/*Banner Data Dashboard amarillo*/
 .banner{
     width: 100%;
     height: 70px;
     background-color: #FFE521;
 }
 
-.container-fluir h1 {
+/*Banner Data Dashboard rosa*/
+.banner2{
+    width: 100%;
+    height: 20px;
+    background-color: #ff009E;
+}
+
+/* Texto Banner Data Dashboard*/
+.container-fluid h1 {
     font-size: 25px;
-    color: white;
+    text-align: center;
+    color:#000000;
     padding: 1em;
+    font-weight: bold;
+}
+
+/* Imagen de mujer */
+.box1 img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;  
+}
+
+/* box rosa transparente */
+.box1 #boxD {
+    width: 400px;
+    height: 300px;
+    padding: 0px;
+    background-color: #ff009E;
+    position: absolute;
+    left:20%;
+    top:50px;
+    opacity: 0.5;
+    border-radius: 20px;
+
 }
 
 
+
+/*  CCS MÓVIL */
+
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
+  
+    /*logotipo Laboratoria*/
+    .container-fluid img {
+        width: 40%;
     }
-    .container-fluir img {
-        width: 50%;
+
+    /*boton buscar*/
+    .container-fluid a {
+        width: 100px;
+        height: 25px;
+        background-color: #ff009E;
+        border: 1px solid rgb(192, 47, 136);
+        position:absolute;
+        right: 25px;
+        top:10px; 
     }
+
+    /*texto boton buscar*/
+    .container-fluid h2 {
+        font-size: 10px;
+    }
+    
+    /*Banner Data Dashboard*/
+    .banner{
+        width: 100%;
+        height: 40px;
+        background-color: #FFE521;
+    }
+
+    /* Texto Banner Data Dashboard*/
+    .container-fluid h1 {
+        font-size: 15px;
+        color:#000000;
+        padding: 1em;
+        font-weight: bold;
+    }
+
+    /* Imagen de mujer */
+    .box1 img {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;  
+    }
+
+    /* box rosa transparente */
+    .box1 #boxD {
+        width: 200px;
+        height: 150px;
+        padding: 0px;
+        background-color: #ff009E;
+        position: absolute;
+        left:20%;
+        top:30px;
+        opacity: 0.5;
+        border-radius: 20px;
+    
+    }
+    
+
 }
