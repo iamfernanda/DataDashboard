@@ -42,7 +42,7 @@ body {
 
 /* Texto Banner Data Dashboard*/
 .container-fluid h1 {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color:#000000;
     padding: 1em;
@@ -57,18 +57,29 @@ body {
 }
 
 /* box rosa transparente */
-.box1 #boxD {
+.box1 #box2 {
     width: 400px;
     height: 300px;
-    padding: 0px;
     background-color: #ff009E;
     position: absolute;
-    left:20%;
+    left:30%;
     top:50px;
-    opacity: 0.5;
+    opacity: 0.9;
     border-radius: 20px;
 
 }
+
+#box2 form {
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    text-align: center;
+    color: white;
+}
+
+
+
 
 
 
@@ -120,18 +131,32 @@ body {
     }
 
     /* box rosa transparente */
-    .box1 #boxD {
-        width: 200px;
+    .box1 #box2 {
+        width: 150px;
         height: 150px;
-        padding: 0px;
         background-color: #ff009E;
         position: absolute;
-        left:20%;
+        left:30%;
         top:30px;
         opacity: 0.5;
         border-radius: 20px;
     
     }
+
+    #box2 form {
+        font-size: 8px;
+        width: 60%;
+        height: 10px;
+        position: absolute;
+        left: 20%;
+        top: 10%;
+        text-align: center;
+        color: white;
+    }
+    #box2 form label {
+        font-size: 5px;
+    }
+
     
 
 }
