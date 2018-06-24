@@ -25,32 +25,43 @@
 }));
 
 }
-).then((respuestajson)=>{
-    console.log(respuestajson);
+).then((respuesta)=>{
+    console.log(respuesta);
     let users = respuesta[0];
     let progress = respuesta[1];
     let course = respuesta[2];
+
+   let myUsers = window.functions.computeUsersStats(users, progress, Object.keys(course[3].coursesIndex) );
 }).catch((error) => {
     console.error(error);
+})
 
-});
-
-   window.functions ={
-       computeUsersStats : (users,progress,course) =>{
-        for (i = 0; i < users.length; i++) {
+    window.functions = {
+       computeUsersStats : (users,progres, course) => {
+        for (let i = 0; i < users.length; i++) {
             let userId = users[i].id;
-            let progress = progress[userId];
-}}}; 
+            let progress = progres[userId];
+
+            let usersData = [];
+            let progressData = {};
+            let cohortData = {};
+            let cohortUsers = [];
+            let userStats = [];
+            let cohorts = {};
+            let courses = [];
+            let userByCohort = [];
+
+            for(let j=0; j < course.length; j++){
+
+                console.log(course[j]);
+
+                console.log(progress);
+            }
+        }
+    }
+}
 
 
-let usersData = [];
-let progressData = {};
-let cohortData = {};
-let cohortUsers = [];
-let userStats = [];
-let cohorts = {};
-let courses = [];
-let userByCohort = [];
     
 
 
