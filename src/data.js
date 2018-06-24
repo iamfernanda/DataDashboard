@@ -35,8 +35,7 @@
 }).catch((error) => {
     console.error(error);
 })
-
-    window.functions = {
+     window.functions = {
        computeUsersStats : (users,progres, course) => {
         for (let i = 0; i < users.length; i++) {
             let userId = users[i].id;
@@ -50,7 +49,7 @@
             let cohorts = {};
             let courses = [];
             let userByCohort = [];
-
+ 
             for(let j=0; j < course.length; j++){
 
                 console.log(course[j]);
