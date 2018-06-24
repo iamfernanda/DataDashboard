@@ -27,11 +27,31 @@
 }
 ).then((respuestajson)=>{
     console.log(respuestajson);
-}).catch((error)=>{
+    let users = respuesta[0];
+    let progress = respuesta[1];
+    let course = respuesta[2];
+}).catch((error) => {
+    console.error(error);
 
 });
 
+   window.functions ={
+       computeUsersStats : (users,progress,course) =>{
+        for (i = 0; i < users.length; i++) {
+            let userId = users[i].id;
+            let progress = progress[userId];
+}}}; 
 
-computeUserStatus(users,progress,course)
-for (i = 0; i < cars.length; i++) { 
-    text += cars[i] + "<br>";
+
+let usersData = [];
+let progressData = {};
+let cohortData = {};
+let cohortUsers = [];
+let userStats = [];
+let cohorts = {};
+let courses = [];
+let userByCohort = [];
+    
+
+
+
