@@ -1,3 +1,4 @@
+
 Promise.all([
     fetch("../data/cohorts/lim-2018-03-pre-core-pw/users.json"),
     fetch("../data/cohorts/lim-2018-03-pre-core-pw/progress.json"),
@@ -8,6 +9,15 @@ Promise.all([
 }));
 
 }
+).then((respuestajson)=>{
+console.log(respuestajson);
+let users = respuesta[0];
+let progress = respuesta[1];
+let courses = respuesta[2];
+}).catch((error)=>{
+
+});
+
 
 
 ).then((respuestajson)=>{
