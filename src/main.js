@@ -13,16 +13,18 @@ Promise.all([
 ).then((respuestajson)=>{
 let usuarios = respuestajson[0]
 let progresos = respuestajson[1]
-let cohorts = respuestajson[2]
+let cohorts = respuestajson[2] //variable funcion muestraCorhots// 
 muestraCorhots(cohorts);
-
+const cohort = cohorts.find(item => item.id === 'lim-2018-03-pre-core-pw');
+const cursos = Object.keys(cohort.coursesIndex);
+computeUserStats(usuarios, progresos,cursos)
 
 
 }).catch((error)=>{
 
 });
 
-// funcion que llama a los cohorts
+// funcion que llama a los cohorts//
 muestraCorhots= (corhots)=> {
     const cohortsId =corhots.map(element => element.id);
     const contenedor = document.getElementById("cohortsdata"); //se le asigna una variable para poder llamar selector que esta en el html donde estaran los cohorts//
