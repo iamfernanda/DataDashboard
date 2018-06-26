@@ -9,14 +9,6 @@ Promise.all([
 }));
 
 }
-).then((respuestajson)=>{
-console.log(respuestajson);
-let users = respuesta[0];
-let progress = respuesta[1];
-let courses = respuesta[2];
-}).catch((error)=>{
-
-});
 
 
 

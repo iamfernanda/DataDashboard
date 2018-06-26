@@ -1,3 +1,9 @@
+     //Función que  muestra la selección de cohorts una vez presionado el boton "buscar"//
+        function busqueda() {
+        document.getElementById("box2").style.visibility = "visible";
+       }
+     
+     
      window.functions = {
        computeUsersStats : (users,progres, course) => {
         for (let i = 0; i < users.length; i++) {
