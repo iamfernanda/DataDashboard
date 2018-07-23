@@ -8,20 +8,15 @@ Promise.all([
                 return respuesta.json();
 }));
 
-}
-
-
-
-).then((respuestajson)=>{
-let usuarios = respuestajson[0]
-let progresos = respuestajson[1]
-let cohorts = respuestajson[2] //variable funcion muestraCorhots// 
-muestraCorhots(cohorts);
-const cohort = cohorts.find(item => item.id === 'lim-2018-03-pre-core-pw');
-const cursos = Object.keys(cohort.coursesIndex);
-computeUserStats(usuarios, progresos,cursos)
-
-
+}).then((respuestajson)=>{
+    let usuarios = respuestajson[0]
+    let progresos = respuestajson[1]
+    let cohorts = respuestajson[2] //variable funcion muestraCorhots// 
+    muestraCorhots(cohorts);
+    const cohort = cohorts.find(item => item.id === 'lim-2018-03-pre-core-pw');
+    const cursos = Object.keys(cohort.coursesIndex);
+    console.log('dsada')
+    window.functions.computeUsersStats(usuarios, progresos, cursos)
 }).catch((error)=>{
 
 });
